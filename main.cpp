@@ -5,5 +5,6 @@
 int main() {
     auto *fileSystemModeling = new FileSystemModeling;
     fileSystemModeling->start();
+    delete fileSystemModeling;
     return 0;
 }
